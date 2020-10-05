@@ -19,7 +19,7 @@ if(@$_POST["submit"])
  echo "Thanks for giving feedback.";   
  $name = @$_POST["name"];
  $mailto = @$_POST["mail"];
- $adminmail= "meshree4@gmail.com";
+ $adminmail= "walunjkirnesh@gmail.com";
  $feedback = @$_POST["feedback"];
  $subject = "Feedback";
  $msg = "Hey $name thanks for filling feedback. Here is what we got from you: \n";
